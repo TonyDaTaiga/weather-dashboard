@@ -1,0 +1,17 @@
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#weatherIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

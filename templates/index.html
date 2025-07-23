@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Weather Dashboard</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form id="weatherForm" class="mb-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="cityInput"
+                        placeholder="Enter city name" required>
+                    <button class="btn btn-primary" type="submit">
+                        Get Weather
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div id="weatherResult" class="card d-none">
+                <div class="card-body">
+                    <h2 class="card-title text-center">
+                        <span id="cityName"></span>
+                        <img id="weatherIcon" src="" alt="Weather Icon">
+                    </h2>
+                    <div class="weather-info">
+                        <p class="temperature">Temperature: <span id="temperature"></span>°C</p>
+                        <p class="description">Description: <span id="description"></span></p>
+                        <p class="humidity">Humidity: <span id="humidity"></span>%</p>
+                        <p class="wind">Wind Speed: <span id="windSpeed"></span>m/s</p>
+                    </div>
+                </div>
+            </div>
+            <div id="errorMessage" class="alert alert-danger d-none"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
