@@ -41,8 +41,11 @@ A modern, responsive weather dashboard that provides real-time weather informati
 ## ⚙️ Installation
 
 1. Clone the repository:
-```bash
 git clone https://github.com/TonyDaTaiga/weather-dashboard.git
 cd weather-dashboard
+pip install -r requirements.txt
 
-make a .env file with your api key from  OpenWeatherMap
+make a '.env' file in the root of the project.
+Copy and paste the following line into the file and place your api key from OpenWeatherMap within the quotes.
+
+WEATHER_API_KEY = ''
