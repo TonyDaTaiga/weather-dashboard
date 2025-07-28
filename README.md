@@ -42,7 +42,7 @@ A modern, responsive weather dashboard that provides real-time weather informati
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/weather-dashboard.git
+git clone https://github.com/TonyDaTaiga/weather-dashboard.git
 cd weather-dashboard
 
 make a .env file with your api key from  OpenWeatherMap
